@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const dotenv = require("dotenv");
 const hotels = require("./data/hotels");
 const flights = require("./data/flights");
@@ -7,6 +8,7 @@ dotenv.config();
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 app.get("/hotels", (req, res) => {
   res.send(hotels);
