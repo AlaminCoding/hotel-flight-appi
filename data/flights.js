@@ -1,6 +1,7 @@
 const flights = [
   {
     id: 1,
+    airline: "Flight Emirates",
     from: "Dhaka",
     to: "Chittagong",
     cost: 150,
@@ -11,6 +12,7 @@ const flights = [
   },
   {
     id: 2,
+    airline: "Japan Airlines",
     from: "Dhaka",
     to: "Rajshahi",
     cost: 100,
@@ -21,6 +23,7 @@ const flights = [
   },
   {
     id: 3,
+    airline: "Flight Emirates",
     from: "Dhaka",
     to: "Khulna",
     cost: 100,
@@ -31,6 +34,7 @@ const flights = [
   },
   {
     id: 4,
+    airline: "Japan Airlines",
     from: "Dhaka",
     to: "Barishal",
     cost: 100,
@@ -41,6 +45,7 @@ const flights = [
   },
   {
     id: 5,
+    airline: "Flight Emirates",
     from: "Dhaka",
     to: "Rangpur",
     cost: 100,
